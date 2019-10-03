@@ -65,9 +65,11 @@
     <Compile Include="Assets\Daniel\Assets\Scripts\BG Scripts\BGScroll.cs" />
     <Compile Include="Assets\Daniel\Assets\Scripts\Bullet Scripts\BulletScript.cs" />
     <Compile Include="Assets\Daniel\Assets\Scripts\Enemy_Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Daniel\Assets\Scripts\EnemyScript.cs" />
     <Compile Include="Assets\Daniel\Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Daniel\Assets\Scripts\SpawnPenguin\Spawn.cs" />
+    <Compile Include="Assets\Daniel\Assets\Scripts\SpawnPenguin\SpawnPenguin.cs" />
     <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\SpawnPenguin.cs" />
     <Compile Include="Assets\VolumeValueChange.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
