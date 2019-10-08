@@ -9212,5 +9212,11 @@ PrefabInstance:
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1287297767}
+    - target: {fileID: 8844169822572173980, guid: ec09d76a87497d0be94c2d5b81583f8e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 71ec503cdcb457f22bce1a57b1e005a9,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec09d76a87497d0be94c2d5b81583f8e, type: 3}
