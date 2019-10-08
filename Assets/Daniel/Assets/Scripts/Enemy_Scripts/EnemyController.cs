@@ -68,7 +68,10 @@ public class EnemyController : MonoBehaviour
             tmpPos = (d.normalized * s * Time.deltaTime) + transform.position;
 
             //Check if new Position is valid
-            tmpPos.x = Mathf.Clamp(tmpPos.x, minX, maxX);
+            //tmpPos.x = Mathf.Clamp(tmpPos.x, minX, maxX);
+            if(tmpPos.x < minX){
+                gameObject.SetActive(false);
+            }
 
             transform.position = tmpPos;
     }
@@ -76,6 +79,7 @@ public class EnemyController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D p){
         if(p.CompareTag("Bullet")){
             life -= 1f;
+            gameObject.SetActive(false);
         }
     }
 }

@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Transform shootPoint;
 
-
+    private SpriteRenderer renderer;
     private Animator animator;
     private string lastDirection = "IdleS";
     [SerializeField]
@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         currentTimer = shootTimer;
         //rb = this.GetComponent<Rigidbody2D>();
+        renderer = this.GetComponent<SpriteRenderer>();
         animator = this.GetComponent<Animator>();
         playerState = CharacterState.Normal;
     }
@@ -70,6 +71,8 @@ public class PlayerController : MonoBehaviour
                 MovePlayer();
             break;
             case CharacterState.Defeated:
+                animator.Play("Invincible");
+                gameObject.SetActive(false);
             break;
         }
 
@@ -79,6 +82,8 @@ public class PlayerController : MonoBehaviour
         if(invincibleTimer < 0f){
             invincibleTimer = 1.0f;
             playerState = CharacterState.Normal;
+            renderer.color = new Color(254f, 254f, 254f, 255f);
+
         }
 
     }
@@ -171,6 +176,7 @@ public class PlayerController : MonoBehaviour
         if(p.CompareTag("Penguin") && playerState == CharacterState.Normal){
             life -= 0.25f;
             playerState = CharacterState.Damaged;
+            renderer.color = new Color(255f, 0f, 0f, 50);
         }
     }
 }

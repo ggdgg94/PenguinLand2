@@ -29,4 +29,10 @@ public class BulletScript : MonoBehaviour
     void DeactivateGameObject(){
         gameObject.SetActive(false);
     }
+
+    void OnTriggerEnter2D(Collider2D p){
+        if(p.CompareTag("Penguin")){
+            gameObject.SetActive(false);
+        }
+    }
 }
