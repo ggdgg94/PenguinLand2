@@ -394,17 +394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb655cff7ddd33da95ad45fd380e9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  dashSpeed: 20
+  speed: 3
   maxX: 23.06
-  maxY: 4.6
-  minX: -23.06
-  minY: -4.6
-  shootTimer: 0.35
-  fishShot: {fileID: 0}
-  shootPoint: {fileID: 0}
-  invincibleTimer: 1
-  life: 3
+  minX: -5.83
+  life: 1
 --- !u!1001 &1598151882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -541,15 +534,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Penguin
       objectReference: {fileID: 0}
+    - target: {fileID: 8844169822572173976, guid: ec09d76a87497d0be94c2d5b81583f8e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Penguin
+      objectReference: {fileID: 0}
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.2
+      value: 22.99
       objectReference: {fileID: 0}
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.03
+      value: 4.04
       objectReference: {fileID: 0}
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
@@ -606,7 +604,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6895101634432053924, guid: ec09d76a87497d0be94c2d5b81583f8e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ec09d76a87497d0be94c2d5b81583f8e, type: 3}
 --- !u!1 &1772269501
 GameObject:
@@ -8978,12 +8977,12 @@ PrefabInstance:
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.08
+      value: -3.17
       objectReference: {fileID: 0}
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 8844169822572173987, guid: ec09d76a87497d0be94c2d5b81583f8e,
         type: 3}
