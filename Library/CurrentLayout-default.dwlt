@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 581, y: 494}
   m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 56
+  controlID: 32
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1242
+  m_LastSelectedObjectID: -5248
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,9 +414,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68fbffff
-      m_LastClickedID: -1176
-      m_ExpandedIDs: 26fbffff68fbffff3e4c0000
+      m_SelectedIDs: 8c4c0000
+      m_LastClickedID: 19596
+      m_ExpandedIDs: 80ebffff10fbffff1afbffff68fbffff8c4c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -476,9 +476,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6122379, y: -0.8635041, z: -10.876094}
+    m_Target: {x: 2.4379482, y: -0.061524883, z: -17.67288}
     speed: 2
-    m_Value: {x: -1.6122379, y: -0.8635041, z: -10.876094}
+    m_Value: {x: 2.4379482, y: -0.061524883, z: -17.67288}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.035263
+    m_Target: 25.760477
     speed: 2
-    m_Value: 8.035263
+    m_Value: 25.760477
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Oct 8, 07:04
+    lastUpdateTime: Oct 8, 10:30
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -95614,8 +95614,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 18
-    listPackagesOfflineVersion: 17
+    listPackagesVersion: 20
+    listPackagesOfflineVersion: 19
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -96055,20 +96055,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Daniel/Assets/Scripts/Player
+    - Assets/Daniel/Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Daniel/Assets/Scripts/Player
+  - Assets/Daniel/Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/user/Git/PenguinLand2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 02350000
-    m_LastClickedID: 13570
-    m_ExpandedIDs: 00000000962e0000e82e0000842f00008e330000b034000060350000d03600000e37000036380000d8380000163b0000ca3c0000623d0000883d0000be3d0000f63d0000824500004e470000b0480000464a0000484d00004a4d00004c4d00004e4d0000504d0000524d0000544d0000564d0000684d000000ca9a3b
+    m_SelectedIDs: 8e4a0000
+    m_LastClickedID: 19086
+    m_ExpandedIDs: 00000000962e0000e82e0000842f00009c330000be3400006c350000e03600001e37000046380000e8380000263b0000e23c00007e3d0000a43d0000da3d0000163e0000c445000094470000fa4800008e4a00009a4d00009c4d00009e4d0000a04d0000a24d0000a44d0000a64d0000a84d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -96096,7 +96096,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000962e0000e82e0000842f00008e330000b034000060350000d03600000e37000036380000d8380000163b0000ca3c0000623d0000883d0000be3d0000f63d0000824500004e470000b0480000464a0000484d00004a4d00004c4d00004e4d0000504d0000524d0000544d0000564d0000
+    m_ExpandedIDs: 00000000962e0000e82e0000842f00009c330000be3400006c350000e03600001e37000046380000e8380000263b0000e23c00007e3d0000a43d0000da3d0000163e0000c445000094470000fa4800008e4a00009a4d00009c4d00009e4d0000a04d0000a24d0000a44d0000a64d0000a84d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
