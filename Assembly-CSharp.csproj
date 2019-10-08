@@ -47,10 +47,10 @@
   <ItemGroup>     <Compile Include="Assets\Daniel\Assets\Graphics\TooCubeForest\demoScenes\Movement.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\BG Scripts\BGScroll.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Bullet Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Daniel\Assets\Scripts\Enemy_Scripts\EnemyController.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Enemy_Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Player\PlayerController.cs" />
-     <Compile Include="Assets\Daniel\Assets\Scripts\Player\PlayerController2.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\SpawnPenguin\Spawn.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\SpawnPenguin\SpawnPenguin.cs" />
      <Compile Include="Assets\Jordan\_External\2d-techdemos\GridInformation\Scripts\GridInformation.cs" />
@@ -170,18 +170,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/home/user/Git/PenguinLand2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VectorGraphics">
- <HintPath>/home/user/Git/PenguinLand2/Library/ScriptAssemblies/Unity.VectorGraphics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.003">
- <HintPath>/home/user/Git/PenguinLand2/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.003.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VectorGraphics.Editor">
- <HintPath>/home/user/Git/PenguinLand2/Library/ScriptAssemblies/Unity.VectorGraphics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.003">
- <HintPath>/home/user/Git/PenguinLand2/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/home/user/2019.2.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

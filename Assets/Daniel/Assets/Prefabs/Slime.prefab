@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2669684600694601152}
   - component: {fileID: 2669684600694601155}
   - component: {fileID: 2669684600694601154}
-  - component: {fileID: 2991112784456652854}
+  - component: {fileID: 731258361}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -91,6 +91,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -103,7 +104,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: dc10d3cb94918a052b9f2f3253479651, type: 3}
+  m_Sprite: {fileID: 3286163911610860551, guid: eaea0e43aac2eb4ff824e0fbb51b978a,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +126,7 @@ Animator:
   m_GameObject: {fileID: 2669684600694601157}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 968055bdf045548edb3cb57960ecfebb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -180,7 +182,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2991112784456652854
+--- !u!114 &731258361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,13 +191,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 2669684600694601157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c86439750a53239a8cf775db4230ec, type: 3}
+  m_Script: {fileID: 11500000, guid: cc90efc8b17c74f74a91e21b2915eed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  minY: -4.75
-  maxY: 4.75
-  attackTimer: 0.35
-  playerBullet: {fileID: 1537916816360875944, guid: 6350f5a0c5640087ba7ae3568c774a74,
+  dashSpeed: 20
+  maxX: 23.06
+  maxY: 4.6
+  minX: -12.6
+  minY: -4.05
+  shootTimer: 0.35
+  fishShot: {fileID: 1537916816360875944, guid: 6350f5a0c5640087ba7ae3568c774a74,
     type: 3}
-  attackPoint: {fileID: 2834252900045875886}
+  shootPoint: {fileID: 2834252900045875886}
+  invincibleTimer: 1
+  life: 3
