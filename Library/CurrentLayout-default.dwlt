@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 581, y: 472}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 57
+  controlID: 56
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2424
+  m_LastSelectedObjectID: -1234
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,9 +414,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 364c0000
-      m_LastClickedID: 19510
-      m_ExpandedIDs: 68fbffff424c0000
+      m_SelectedIDs: 24320000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2af8ffff2efbffff68fbffff364c0000424c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -432,7 +432,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 657bfd1ae3b28384b8bd7b50566efa46
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 1
@@ -476,9 +476,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.0720735, y: 0.831192, z: -157.82504}
+    m_Target: {x: -2.868261, y: -0.54915816, z: -1.2650303}
     speed: 2
-    m_Value: {x: 3.0720735, y: 0.831192, z: -157.82504}
+    m_Value: {x: -2.868261, y: -0.54915816, z: -1.2650303}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22.625946
+    m_Target: 3.8631272
     speed: 2
-    m_Value: 22.625946
+    m_Value: 3.8631272
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -654,10 +654,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b344deaca502d510bb13a26b2a9c8e32,
+  m_AnimatorController: {fileID: 9100000, guid: 968055bdf045548edb3cb57960ecfebb,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 3048638757948928929, guid: b344deaca502d510bb13a26b2a9c8e32,
+  - m_Target: {fileID: 3986136931418938800, guid: 968055bdf045548edb3cb57960ecfebb,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Oct 8, 02:27
+    lastUpdateTime: Oct 8, 05:08
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -95614,8 +95614,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 9
-    listPackagesOfflineVersion: 8
+    listPackagesVersion: 17
+    listPackagesOfflineVersion: 16
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -96055,19 +96055,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Daniel/Assets/Scripts/Enemy_Scripts
+    - Assets/Daniel/Assets/Graphics/Raster Penguins
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Daniel/Assets/Scripts/Enemy_Scripts
+  - Assets/Daniel/Assets/Graphics/Raster Penguins
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/user/Git/PenguinLand2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a390000
-    m_LastClickedID: 14650
+    m_SelectedIDs: f03f0000
+    m_LastClickedID: 16368
     m_ExpandedIDs: 00000000922e0000e42e0000802f000088330000aa3400005a350000ca3600000837000030380000d2380000103b0000c43c00005c3d0000823d0000b83d0000f03d00007c45000048470000aa480000404a0000264d0000284d00002a4d00002c4d00002e4d0000304d0000324d0000344d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

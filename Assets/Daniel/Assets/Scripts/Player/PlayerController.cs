@@ -26,11 +26,14 @@ public class PlayerController : MonoBehaviour
 
     //private Rigidbody2D rb;
 
-
+    [SerializeField]
+    private GameObject gun;
     [SerializeField]
     private GameObject fishShot;
+
     [SerializeField]
     private Transform shootPoint;
+
 
     private Animator animator;
     private string lastDirection = "IdleS";
@@ -119,6 +122,12 @@ public class PlayerController : MonoBehaviour
         }else{
             animator.Play(idle[(int)direction.x+1,(int)direction.y+1]);
             lastDirection = idle[(int)direction.x+1,(int)direction.y+1];
+            if(direction.y > 0f)
+                gun.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            else
+                gun.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            //gun.GetComponent<Transform>().rotation.z = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            //SetRotation(Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
             Move(direction, speed);
         }
 
@@ -144,7 +153,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.K)){
             if(canShoot){
                 canShoot = false;
-                shootTimer = 0f;
+                shootTimer = 0f;                               
                 Instantiate(fishShot, shootPoint.position, Quaternion.identity);
             }
             

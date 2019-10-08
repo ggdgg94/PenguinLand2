@@ -47,6 +47,7 @@
   <ItemGroup>     <Compile Include="Assets\Daniel\Assets\Graphics\TooCubeForest\demoScenes\Movement.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\BG Scripts\BGScroll.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Bullet Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Daniel\Assets\Scripts\Bullet Scripts\GunScript.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Enemy_Scripts\EnemyController.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\Enemy_Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Daniel\Assets\Scripts\EnemyScript.cs" />
